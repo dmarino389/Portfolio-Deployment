@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+
+.top_header, .black-background, .skills-category {
+  background-color: #333; /* Maintains the color scheme across sections */
+  color: #fff; /* Ensures text is visible on dark backgrounds */
+  padding: 30px;
+  text-align: center;
+  
+}
+
+
+.header_text, .skills-overview h2, .skills-category h3 {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+img, .skills-icon {
+  width: 40%;
+  height: auto; /* Adjusts the height automatically to maintain aspect ratio */
+  padding: 30px;
+  border-radius: 30px;
+  display: block; /* Centers images and icons */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-me-heading, .skills-overview h2, .skills-category h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+}
+
+.skills-overview-section, .skills-overview, .skills-category ul {
+  text-align: center;
+  padding: 30px;
+}
+
+.skills-category ul {
+  list-style: none; /* Removes bullet points from the list */
+}
+
+.skills-category li {
+  padding: 5px; /* Adds space between list items */
+}
+
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .top_header, .about-me-heading, .skills-overview h2, .skills-category h3 {
+    font-size: 16px; /* Smaller text for smaller screens */
+  }
+
+  img, .skills-icon {
+    width: 80%; /* Larger width for smaller screens */
+    padding: 15px; /* Less padding for smaller screens */
+  }
+
+  .skills-category {
+    margin-bottom: 20px; /* Adds space between skill categories on smaller screens */
+    
+  }
+}
+
+h3 {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Existing CSS */
+/* ... (Your existing CSS here) ... */
+
+/* New CSS for Contact Me Page */
+/* Existing CSS */
+/* ... (Your existing CSS here) ... */
+
+/* Adjusted CSS for Contact Me Page */
+.contact-page .contact-container {
+  background: #333;
+  color: white; /* Set text color to white */
+  padding: 40px; /* Increase padding */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px; /* Increase maximum width */
+  margin: 30px auto; /* Center the container */
+  font-size: 1.1rem; /* Increase font size */
+}
+
+.contact-page .contact-info {
+  margin-top: 40px; /* Increase margin */
+}
+
+.contact-page .contact-info div {
+  margin-bottom: 30px; /* Increase space between sections */
+}
+
+.contact-page .contact-info h2 {
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem; /* Increase heading size */
+}
+
+.contact-page .contact-info p, 
+.contact-page .contact-info a {
+  color: #fff; /* Set text color to white */
+  margin: 0;
+  text-decoration: none;
+  font-size: 1.2rem; /* Increase font size for readability */
+}
+
+.contact-page .contact-info a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .contact-page .contact-container {
+    padding: 20px;
+    margin: 15px auto;
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+  .contact-page .contact-info h2 {
+    font-size: 1.5rem; /* Adjust heading size for smaller screens */
+  }
+}
+
+
+.project-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  background-color: #f4f4f4; /* Light background for each project */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  width: 40%; /* Adjust as needed */
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-info {
+  width: 55%; /* Adjust as needed */
+  padding-left: 20px;
+}
+
+.project-info h2 {
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.project-info p {
+  color: #555;
+  font-family: Arial, sans-serif;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.project-link:hover {
+  background-color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .project-info {
+    width: 100%;
+  }
+}
+
+/* Add shadow to the body of the page */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
+}
